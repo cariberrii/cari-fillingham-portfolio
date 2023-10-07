@@ -52,13 +52,27 @@ nav {
   height: 300px;
   background-size: cover;
   background-position: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .hero-banner h2 {
+  background-color: rgba(0,0,0,0.6);
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 70px;
+  color: white;
+}
+
+/* main titles style */
+
+.page-section h2 {
+  padding-right: 5px;
+  border-right: 2px solid orange;
+  margin-left: 60px;
+  margin-right: 20px;
   text-align: right;
-  position: relative;
-  bottom: 5px;
-  right: 15px;
 }
 
 /* main flex style */
@@ -78,11 +92,53 @@ nav {
   grid-template-rows: 1fr;
 }
 
+/* work grid style */
 
-.page-section h2 {
-  padding-right: 5px;
-  border-right: 1px solid orange;
-  margin-left: 60px;
-  margin-right: 20px;
-  text-align: right;
+#work-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-areas:
+  "project1 project1"
+  "project2 project3"
+  "project4 project5";
+}
+
+#project-1 {
+  grid-area: project1;
+  background-image: url(../images/02-portfolio-1.jpg);
+}
+
+#project-2 {
+  grid-area: project2;
+  background-image: url(../images/02-portfolio-2.jpg);
+}
+
+#project-3 {
+  grid-area: project3;
+  background-image: url(../images/02-portfolio-3.jpg);
+}
+
+#project-4 {
+  grid-area: project4;
+  background-image: url(../images/02-portfolio-4.jpg);
+}
+
+#project-5 {
+  grid-area: project5;
+  background-image: url(../images/02-run-buddy.jpg);
+}
+
+.workGridArea {
+  background-size: cover;
+  margin: 5px;
+  display: grid;
+  align-content: end;
+}
+
+.heading {
+  background-color: rgba(0,0,0,0.6);
+  padding: 15px;
+  color: white;
+  font-size: 18px;
 }
