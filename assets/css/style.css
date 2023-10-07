@@ -29,19 +29,34 @@ p {
   justify-content: space-between;
   align-items: center;
   background-color: black;
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #h1 {
   background: #FCFFFC;
-  padding: 0 5px;
+  padding-left: 25px;
+  padding-right: 5px;
   color: black;
   margin-left: 0;
 
 }
 
 nav {
-  margin-right: 30px;
+  margin-right: 80px;
+}
+
+nav a {
+  color: white;
+  font-size: 18px;
+  margin: 5px;
+  padding: 5px;
+  border-bottom: 2px solid orange;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: orange;
 }
 
 /* hero banner style */
