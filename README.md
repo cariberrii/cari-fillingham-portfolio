@@ -10,9 +10,22 @@ This particular portfolio site required the use of flex and grid displays to sty
 
 You will notice only one piece of work is live in my portfolio. The others will open the portfolio again in a new tab. I intend to update these as future work is completed, while also updating features of the portfolio site itself to further demonstrate my progress and commitment to showcasing my growing Front End Web Development skills.
 
-![Screenshot Desktop View](url)
-![Screenshot Tablet View](url)
-![Screenshot Mobile View](url)
+## Table of Contents
+
+- [Desktop View](#desktop-view)
+- [Tablet View](#tablet-view)
+- [Mobile View](#mobile-view)
+- [Credits](#credits)
+- [License](#license)
+
+## Desktop View
+![Screenshot Desktop View](assets/images/C_Fillingham_Portfolio_desktop_w1920.png)
+
+## Tablet View
+![Screenshot Tablet View](assets/images/C_Fillingham_Portfolio_tablet_w768.png)
+
+## Mobile View
+![Screenshot Mobile View](assets/images/C_Fillingham_Portfolio_mobile_w480.png)
 
 ## Credits
 
